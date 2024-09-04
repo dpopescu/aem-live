@@ -1,6 +1,7 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  padding: 26px 0;
 }
 
 .columns img {
@@ -13,17 +14,37 @@
 
 .columns > div > .columns-img-col {
   order: 0;
+  flex:.5;
 }
 
 .columns > div > .columns-img-col img {
   display: block;
+  width: auto;
+  height: 358px;
+}
+
+.columns > div > .columns-img-col + div > h2 {
+  margin-bottom: 0.75em;
+  font-size: 40px;
+  color: #000;
+  font-weight: 400 !important;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.columns > div > .columns-img-col + div > p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #3f3f3f;
+  font-family: "Open Sans";
 }
 
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 24px;
+    gap: 80px;
   }
 
   .columns > div > div {
