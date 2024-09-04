@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  height: 120px;
 }
 
 header nav {
@@ -16,7 +17,7 @@ header nav {
   gap: 0 24px;
   margin: auto;
   max-width: 1248px;
-  height: var(--nav-height);
+  height: 120px;
   padding: 0 24px;
   font-family: var(--body-font-family);
 }
@@ -224,9 +225,25 @@ header nav .nav-sections ul > li > ul > li {
     margin: 0;
   }
 
+ .section.nav-brand {
+    display: none;
+  }
+
+  header nav .nav-sections {
+    -webkit-flex-grow: 2;
+    -ms-flex-grow: 2;
+    flex-grow: 2;
+    padding: 0;
+    margin-right: 30px;
+    position: relative;
+  }
+
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+    padding: 0;
+    height: 120px;
+    line-height: 120px;;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {

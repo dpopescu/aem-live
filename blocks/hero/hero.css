@@ -1,6 +1,7 @@
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
+  height: 576px;
 }
 
 .hero {
@@ -10,10 +11,15 @@
 }
 
 .hero h1 {
-  max-width: 1200px;
+  width: 100%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
+  padding-top: 200px;
+  font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 5px;
 }
 
 .hero picture {
@@ -22,12 +28,13 @@
   inset: 0;
   object-fit: cover;
   box-sizing: border-box;
+  height: 576px;
 }
 
 .hero img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 576px;
 }
 
 @media (width >= 900px) {
