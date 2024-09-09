@@ -230,7 +230,7 @@ header nav .nav-sections ul > li > ul > li {
   }
 
  .section.nav-brand {
-    display: none;
+    /* display: none; */
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {

@@ -62,7 +62,7 @@
 #recommendations + p {
   color: #000;
   font-family: Montserrat;
-  font-size: 40px;
+  /* font-size: 40px; */
   font-weight: lighter;
   letter-spacing: 3px;
   text-align: center;
