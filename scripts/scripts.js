@@ -130,7 +130,7 @@ async function getAndApplyOffers() {
 
 let atjsPromise = Promise.resolve();
 // if (getMetadata('target')) {
-  atjsPromise = initATJS('./at_ala_bun.js', {
+  atjsPromise = initATJS('./at.js', {
     clientCode: 'aemonacpprodcampaign',
     serverDomain: 'aemonacpprodcampaign.tt.omtrdc.net',
     imsOrgId: '906E3A095DC834230A495FD6@AdobeOrg',
